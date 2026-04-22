@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/CursedSinceBirth-hub/jenkins_exp3.git'
+                git branch:'main', url:'https://github.com/CursedSinceBirth-hub/jenkins_exp3.git'
             }
         }
 
