@@ -11,10 +11,9 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo "Testing project..."
-                bat 'python -m py_compile app.py'
+                echo 'Testing project...'
+                bat '"C:/Users/Sarthak Deochake/AppData/Local/Python/pythoncore-3.14-64/python.exe" -m py_compile app.py'
             }
         }
 
-    }
 }
