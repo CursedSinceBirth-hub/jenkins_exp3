@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building project..."
-                bat '"C:\Users\Sarthak Deochake\AppData\Local\Python\pythoncore-3.14-64\python.exe" app.py'
+                bat "\"C:\\Users\\Sarthak Deochake\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe\" app.py"
             }
         }
 
