@@ -2,13 +2,6 @@ pipeline {
     agent any
 
     stages {
-
-        stage('Clone Code') {
-            steps {
-                git branch:'main', url:'https://github.com/CursedSinceBirth-hub/jenkins_exp3.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 echo "Building project..."
