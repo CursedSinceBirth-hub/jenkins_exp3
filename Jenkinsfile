@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/your-username/exp3-jenkins-pipeline.git'
+                git 'https://github.com/CursedSinceBirth-hub/jenkins_exp3.git'
             }
         }
 
